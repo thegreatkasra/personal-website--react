@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 38px;
+    padding: 0 24px;
+    align-items: center;
+}
+.logo img{
+ height: 50px;
+ cursor: pointer;
+}
+.navigation ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 18px;
+}
+.navigation ul li{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 500ms;
+}
+.navigation ul li:hover{
+    text-decoration: underline;
+}
