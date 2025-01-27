@@ -17,11 +17,19 @@
     list-style: none;
     gap: 18px;
 }
-.navigation ul li{
+.navigation ul li .link{
+    color: rgb(7, 7, 7);
     text-decoration: none;
     cursor: pointer;
     transition: 500ms;
 }
 .navigation ul li:hover{
     text-decoration: underline;
+    text-underline-offset: 4px;
+}
+.active{
+    text-decoration: underline;
+    color: rgb(7, 7, 7);
+    font-weight: 700;
+    text-underline-offset: 4px;
 }
