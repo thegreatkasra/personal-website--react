@@ -7,12 +7,12 @@
     justify-content: center;
     align-items: center;
 }
-.footer-images{
+.footer--images{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
 }
-.footer-images img{
+.footer--images img{
     height: 50px;
 }

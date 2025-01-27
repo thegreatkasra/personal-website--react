@@ -8,7 +8,7 @@ import {Link} from "react-router-dom"
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="footer-images">
+            <div className="footer--images">
                 <div>
                     <Link to="https://www.behance.net/kasratorabi1" > <img src={behance}/> </Link>
                 </div>

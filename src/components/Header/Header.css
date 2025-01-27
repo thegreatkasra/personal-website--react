@@ -6,24 +6,24 @@
     padding: 0 24px;
     align-items: center;
 }
-.logo img{
+.header--logo img{
  height: 50px;
  cursor: pointer;
 }
-.navigation ul{
+.header--navigation ul{
     display: flex;
     justify-content: center;
     align-items: center;
     list-style: none;
     gap: 18px;
 }
-.navigation ul li .link{
+.header--navigation ul li .link{
     color: rgb(7, 7, 7);
     text-decoration: none;
     cursor: pointer;
     transition: 500ms;
 }
-.navigation ul li:hover{
+.header--navigation ul li:hover{
     text-decoration: underline;
     text-underline-offset: 4px;
 }
