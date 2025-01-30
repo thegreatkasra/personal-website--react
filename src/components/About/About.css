@@ -1,0 +1,9 @@
+#box img{
+    height: 30px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    cursor: pointer;
+}
