@@ -6,5 +6,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
   font-weight: 600;
-  background: #fcfcfc;
+  background: var(--primary-color);
+}
+:root{
+  /* color */
+  --primary-color: #fcfcfc;
+  --accent-color:#8907bd;
+  --accent-hover-color:#ab30e0;
+  --text-color:#171717;
 }

@@ -1,9 +1,44 @@
 #box img{
     height: 30px;
 }
-.name{
+.about--name{
     display: flex;
     justify-content: center;
     margin-top: 24px;
     cursor: pointer;
+}
+.about--name h1{
+    font-size: 24px;
+    color: #171717;
+}
+.about--explain{
+    margin: 0 24px 40px;
+}
+.about--explain p{
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.about--images{
+    display: flex;
+    margin: 24px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.about--image1 {
+    height: 32px;
+}
+.about--image2 {
+    height: 32px;
+}
+.about--image3 {
+    height: 24px;
+}
+.about--gif{
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+    height: 400px;
 }

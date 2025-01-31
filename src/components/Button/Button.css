@@ -1,8 +1,8 @@
 .button{
-    background-color: #4CAF50;
+    background-color: var(--accent-color);
     cursor: pointer;
     height: 36px;
-    color: #ffff;
+    color: var(--primary-color);
     border: none;
     border-radius: 5px;
     font-size: 14px;
@@ -11,5 +11,5 @@
     transition: 500ms;
 }
 .button:hover{
-    background-color: #3e8e41;
+    background-color: var(--accent-hover-color);
 }
