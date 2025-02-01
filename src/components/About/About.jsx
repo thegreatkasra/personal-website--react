@@ -41,8 +41,17 @@ const About = () =>{
                 <h1 onClick={handleAnimate}>{text}</h1>
             </div>
             <div className="about--explain">
+                <h4>
+                    Front-end :
+                </h4>
                 <p>
-                I’m a UI/UX designer and Front-end Developer with a background in Software Engineering. I love creating intuitive and visually engaging interfaces that make a real difference for users. I’m quick to pick up new skills and enjoy taking on challenges in new work environments. Building strong relationships and working well with others is really important to me. Every job is an opportunity to learn and grow, both personally and professionally. My goal is to be part of innovative teams where I can make a meaningful impact and keep improving as a designer and developer.
+                Strong knowledge in front-end development, including HTML, CSS, JavaScript, and frameworks like React, with a focus on responsive design.
+                </p>
+                <h4>
+                    UX/UI DESIGNER :
+                </h4>
+                <p>
+                 I’ve expanded my knowledge of UI/UX design through self-study using Persian and English resources. These materials have helped me understand user behavior, design patterns, and the importance of usability. By studying from various tutorials, articles, and case studies.
                 </p>
             </div>
             <div className="about--images">

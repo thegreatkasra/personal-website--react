@@ -1,8 +1,6 @@
 .Banner {
     width: 100%;
-    max-width: var(--containerSize);
-    margin: 0 auto;
-    height: calc(100vh - 180px);
+    margin: 40px 24px;
     position: relative;
     display: flex;
     align-items: center;
@@ -28,6 +26,9 @@
     width: 100%;
     max-width: 490px;
   }
+  .Banner--Content h3{
+    font-weight: 400;
+  }
   .Banner__primaryColor {
     color: var(--primary)
   }
@@ -36,8 +37,8 @@
   }
   .Banner--Profile {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     margin-left: 50px;
     flex-shrink: 0;
     flex-basis: 50%;
