@@ -6,17 +6,17 @@
     margin: 0 24px 24px;
 }
 .card--left-content{
-    width: 50%;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
 }
 .card--right-content{
-    width: 50%;
+    width: 30%;
     padding: 0 50px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
 }
 .card--left-content img{
-    max-height: 200px;
+    width: 100%;
 }

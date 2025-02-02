@@ -1,0 +1,92 @@
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0 0;
+    font-size: large;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 24px 0;
+}
+.contact--form{
+    width: 49%;
+}
+.contact--form form{
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+    gap: 12px;
+}
+.contact--form form textarea{
+    padding: 12px 12px 48px;
+    border: #858585 solid 1px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+.contact--form form textarea::placeholder{
+    color: var(--text-color);
+    font-family: "Open Sans", serif;
+}
+.contact--form form input{
+    padding: 12px;
+    border: #858585 solid 1px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+}
+
+.contact--form form input::placeholder{
+    color: var(--text-color);
+    font-family: "Open Sans", serif;
+}
+.contact--form form button{
+    cursor: pointer;
+    width: 100%;
+    height: 32px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    transition-duration: 1s;
+}
+.contact--form form button:hover{
+    scale: 1.09;
+    font-weight: 500;
+}
+.contact hr{
+    width: 2%;
+}
+.contact--buttons{
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.contact--buttons a{
+    width: 60%;
+}
+.contact--buttons a button{
+    cursor: pointer;
+    width: 100%;
+    height: 32px;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    transition-duration: 1s;
+}
+.contact--buttons a button:hover{
+    scale: 1.09;
+    font-weight: 500;
+}
+.contact--line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 0.1px;
+    border: 0.5px solid #858585;
+}

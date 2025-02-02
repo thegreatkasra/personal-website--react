@@ -6,6 +6,7 @@ import { Link , useLocation } from "react-router-dom";
 
 const Header = () => {
     const Location = useLocation();
+    const download = "https://drive.google.com/file/d/1YyEV9ObV-YK8tJ45ANDLY0HSnRtyzIs-/view?usp=drive_link"
     return (
         <div className="header">
             <div className="header--logo">
@@ -22,7 +23,7 @@ const Header = () => {
                 </ul>
             </div>
             <div>
-                <Button>Download Resume</Button>
+                <Button download={download}>Download Resume</Button>
             </div>
         </div>
     )

@@ -12,6 +12,7 @@ import animationData from "./svg/Animation.json";
 const About = () =>{
     
     const textRef = useRef();
+    const contentRef = useRef();
     const[text, setText] = useState("About Kasra Torabi");
 
     const handleAnimate = () =>{
@@ -23,6 +24,18 @@ const About = () =>{
             scale:0.4,
         })
     };
+
+    useEffect(() => {
+        gsap.fromTo(contentRef.current, {
+            opacity:0,
+            y: 20,
+        },{
+            opacity:1,
+            y:0,
+            duration:0.5,
+            stagger:0.1,
+        })
+    });
 
     useEffect(() => {
         gsap.from(textRef.current, {
@@ -40,7 +53,7 @@ const About = () =>{
         <div className="about--name" ref={textRef}>
                 <h1 onClick={handleAnimate}>{text}</h1>
             </div>
-            <div className="about--explain">
+            <div className="about--explain" ref={contentRef}>
                 <h4>
                     Front-end :
                 </h4>

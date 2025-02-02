@@ -11,8 +11,8 @@ const Portfolio = () => {
     const titles = ["Uber", "Fenty Beauty", "NikaFilm"];
     const descriptions = [
         "This is a production startup for food delivery services using AI to give users a better experience with the menu.",
-        "This is a production startup for food delivery services using AI to give users a better experience with the menu.",
-        "This is a production startup for food delivery services using AI to give users a better experience with the menu."
+        "A E-commerce website to sell rihanna's makeup and beauty tools.",
+        "A online movie platform to watch movies online and a blog to see news for a better SEO."
     ];
 
     const [image, setImage] = useState([]);
